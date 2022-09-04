@@ -1,0 +1,101 @@
+body
+{
+background-color: rgb(71, 176, 233);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+} 
+
+.big
+{
+   
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  
+}
+html{
+
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.1
+{
+    border-bottom: 1px solid aqua;
+}
+
+img
+{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.p
+{
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.pricing
+{
+    margin: 50px 0 25px;
+    color: #016ff9;
+}
+.pricing li
+{
+font-size: 18px;
+font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    border-top: 1px solid #e1e1ff; 
+
+}
+.info span
+{
+   color: #016ff9;
+   font-weight: 900;
+   display: block;
+   font-size: 32px;
+}
+
+.info a
+{
+    color: #016ff9;
+    border-radius: 10px;
+    border:1px solid #9dd1f9;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.info a:hover ,.info a:focus
+{
+    background-color: #e1f1ff;
+}
+.bu.is-featured
+{
+    color: #fff;
+    background-color: #269aff;
+}
+
+.bu.is-featured:hover,.bu.is-featured:focus
+{
+    color: #fff;
+    background-color: #48aaff;
+}
+
+@media (min-width:920px)
+{
+    .big
+    {
+        flex-direction: row;
+    }
+}
