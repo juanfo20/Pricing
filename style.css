@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+#carta
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+img
+{
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+div
+{
+    text-align: center;
+    
+    padding: 40px;
+    border-radius: 20px;
+    margin: 1px;
+    height: 500px;
+}
+
+
+#m
+{
+ background-color: #ff5858;
+
+}
+#audis
+{
+    background-color: #55f465;
+}
+#key
+{
+    background-color: #ff5858;
+
+}
+#mouse
+{
+    background-color: #55f465;
+}
+
+h2
+{
+    font-weight: 600;
+       font-family:'zen dots' ;
+}
+a
+{
+    display:block;
+    color: rgb(252, 91, 80);
+    text-decoration: none;
+    background-color: #e7fa97;
+    font-weight: 600;
+   font-size: 20px;
+ border-radius: 10px;
+ width: 100px;
+ height: 50px;
+text-align: center;
+ position: relative;
+}
+@media (width <= 480px)
+{
+div 
+{
+    display: inline-block;
+}
+}
