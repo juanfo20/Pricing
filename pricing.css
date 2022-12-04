@@ -63,7 +63,7 @@ a
 text-align: center;
  position: relative;
 }
-@media (width <= 480px)
+@media (width >= 480px)
 {
 div 
 {
