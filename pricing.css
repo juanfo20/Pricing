@@ -14,7 +14,7 @@ img
     max-height: 300px;
     border-radius: 10px;
 }
-div
+body
 {
     text-align: center;
     
@@ -67,6 +67,6 @@ text-align: center;
 {
 div 
 {
-    display: inline-block;
+    display: inline;
 }
 }
