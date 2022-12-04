@@ -14,7 +14,7 @@ img
     max-height: 300px;
     border-radius: 10px;
 }
-body
+div
 {
     text-align: center;
     
@@ -63,10 +63,10 @@ a
 text-align: center;
  position: relative;
 }
-@media (width >= 480px)
+@media (width <= 480px)
 {
-#carta
+    #carta 
 {
-    display:flex;
+    display: flex;
 }
 }
