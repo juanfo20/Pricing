@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+body
+{
+    background-image: url(thumb-1920-370799.jpg);
+}
+
 #carta
 {
     
     align-items: center;
     justify-content: center;
-    
+   
 
 }
 
 img
 {
-    max-width: 300px;
+    max-width: 240px;
     max-height: 300px;
     border-radius: 10px;
-  margin-left:-15px ;
+  margin-left:-22px ;
 }
 div
 {
@@ -21,28 +26,32 @@ div
     
     padding: 40px;
     border-radius: 20px;
-    margin: 1px;
-    height: 500px;
+    margin: 20px;
+    height: 400px;
+    
 }
 
 
 #m
 {
- background-color: #ff5858;
+ background-color: #e37272;
 
 }
 #audis
 {
-    background-color: #55f465;
+    background-color: #7be886;
+   
 }
 #key
 {
-    background-color: #ff5858;
-
+    background-color: #e37272;
+   
+  
 }
 #mouse
 {
-    background-color: #55f465;
+    background-color: #7be886;
+    
 }
 
 h2
@@ -52,24 +61,44 @@ h2
 }
 a
 {
-    display:block;
+  display: inline-block;
     color: rgb(252, 91, 80);
     text-decoration: none;
     background-color: #e7fa97;
     font-weight: 600;
    font-size: 20px;
  border-radius: 10px;
+
  width: 100px;
  height: 50px;
 text-align: center;
  position: relative;
 }
+h1
+{
+    font-family:'zen dots';
+    font-weight: 600;
+    background-color: #e7fa97;
+    margin: 5px;
+    border-radius: 10px;
+}
 @media (width >= 480px)
 {
-    
+    img 
+    {
+
+    }
+
+    body
+    {
+        margin-top: 200px;
+        background-image: url(thumb-1920-370799.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #carta 
 {
-    df
+   
     display: flex;
 }
 }
